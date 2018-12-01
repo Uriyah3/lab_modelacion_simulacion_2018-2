@@ -1,1 +1,1 @@
-"# lab_modelacion_simulacion_2018-2" 
+# Laboratorio Modelación y Simulación USACH 2018 - 2
