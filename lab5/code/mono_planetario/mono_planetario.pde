@@ -32,7 +32,7 @@ void setup() {
   float vy = -25850;
   float planetMass = 4*pow(10,14);
   float planetRadius = planetMass / (1.5*pow(10,13));
-  color planetColor = color(80, 180, 180);
+  color planetColor = color(random(0, 255), random(0, 255), random(0, 255));
   
   // Create the planet "earth" and add it to the orbit
   Planet earth = new Planet(x, y, vx, vy, planetMass, planetRadius, planetColor);
