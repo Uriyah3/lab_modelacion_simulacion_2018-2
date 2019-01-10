@@ -3,7 +3,7 @@
 //_______________Modelación y Simulación________________________
 //
 // Laboratorio 5: Simulación Gravitacional
-// Programa: Sistema mono planetario
+// Programa: Sistema mono planetario con estrella en movimiento
 // 
 // Integrantes: Nicolás Mariangel | Juan Pablo Rojas
 // Profesor: Fernando Rannou Fuentes
@@ -23,7 +23,7 @@ void setup() {
   // Define width and height of canvas
   size(800,800);
   // Initialize star (sun) on a 10^-10 scale (of mass).
-  sun = new Sun(0, 0, 2*pow(10,20), 5);
+  sun = new Sun(20, 0, 2*pow(10,20), 5);
   
   // Define parameters for the planet simualting Earth
   float x = 200;
